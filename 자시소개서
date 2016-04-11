@@ -1,0 +1,206 @@
+Enter file contents here<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IT응용시스템공학과 1694038 임홍일</title>
+    <style>
+        *{
+            margin: 0; padding: 0;
+            list-style: none;
+        }
+
+    </style>
+
+    <style>
+        .pull-left{float: left;}
+        .pull-right{float: right;}
+    </style>
+
+    <style>
+        body{
+            width: 960px; margin: 0 auto;
+            background: skyblue;
+        }
+        #page-wrapper{
+            background: white;
+            margin: 40px 0; padding: 10px 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px;
+        }
+    </style>
+
+    <style>
+        #main-header{padding: 40px 50px;}
+        .master-title{
+            font-size: 40px;
+            color: lightsteelblue;
+        }
+        .master-description{
+            font-size: 24px;
+            font-weight: 500;
+            color: orangered;
+        }
+    </style>
+
+    <style>
+        #main-navigation{
+            border-top: 1px solid coral;
+            border-bottom: 1px solid coral;
+            margin-bottom: 20px;
+            height: 40px;
+        }
+
+        .outer-menu-item{
+            float: left;
+            position:relative;
+            list-style: none;
+        }
+
+        .outer-menu-item:hover{
+            background: black;
+            color: white;
+        }
+
+        .menu-title{
+            display: block;
+            height:30px; line-height: 30px;
+            text-align: center;
+            padding: 5px 20px;
+        }
+
+        .inner-menu{
+            position:absolute;
+            top:40px; left: 0;
+            width:100%;
+
+            background: white;
+            box-shadow: 0 2px 6px ;
+            z-index: 1000;
+
+            text-align: center;
+        }
+
+        .inner-menu-item>a{
+            display: block;
+            padding: 5px 10px;
+            color: black;
+        }
+
+        .inner-menu-item>a:hover{
+            background: black;
+            color: white;
+        }
+    </style>
+
+    <style>
+        #content{overflow: hidden;}
+        #main-section{
+            float: left;
+            width:710px;
+        }
+        #main-aside{
+            float: right;
+            width:200px;
+        }
+    </style>
+
+    <style>
+        th{ background: blanchedalmond;
+            color : black;
+        }
+
+        td{ background: blanchedalmond;
+            color: coral}
+    </style>
+
+    <style>
+        .aside-list{
+            padding: 10px 0 30px 0;
+        }
+        .aside-list>h3 {
+            font-size: 25px;
+            font-weight: 600;
+        }
+        .aside-list li a{
+            margin-left: 8px;
+            font-size: 20px;
+            color: burlywood;
+        }
+    </style>
+
+    <style>
+        p{background: blanchedalmond;
+            color: coral;
+            font-size: 20px}
+    </style>
+</head>
+
+<body>
+<div id="page-wrapper">
+    <header id="main-header">
+        <h1 class="master-title">웹프로그래밍</h1>
+        <h2 class="master-description">한성대학교 IT응용시스템공학과 1694038 임홍일</h2>
+    </header>
+
+    <nav id="main-navigation">
+        <div class="pull-left">
+            <ul class="outer-menu">
+
+                <li class="outer-menu-item">
+                    <a href="#alpha"> <span class="menu-title">자기소개</span></a>
+                </li>
+
+
+
+                <li class="outer-menu-item">
+                    <a href="#gamma"><span class="menu-title">한성대학교</span></a>
+                    </il>
+            </ul>
+        </div>
+
+        <div class="pull-right">
+            <div class="search-bar">
+                <form>
+                    <input type="text" class="input-search"/>
+                    <input type="submit" class="input-search-submit" value="검색"/>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="content">
+        <section id="main-section">
+            <div>
+                <h3 id="alpha">자기소개</h3>
+                <p>
+                    이름 : 임홍일 <br>
+                    학번 : 1694038 <br>
+                    전공 : IT응용시스템공학과 <br>
+                    좋아하는음식: 돈까스 치킨 <br>
+                    취미:독서 게임 음악듣기 <br>
+
+                </p>
+                <br/
+            </div>
+            <br/>
+
+
+        </section>
+
+        <aside id="main-aside">
+            <div class="aside-list">
+                <h3>즐겨찾기</h3>
+                <ul>
+                    <li><a href="http://www.hansung.ac.kr">한성대학교</a></li>
+                    <li><a href="http://www.naver.co.kr">네이버</a></li>
+                    <li><a href="http://www.gmail.com">구글</a></
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+
+</div>
+
+</body>
+</html>
