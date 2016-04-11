@@ -3,7 +3,7 @@ Enter file contents here<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <title>IT응용시스템공학과 1694038 임홍일</title>
-    <style>
+    <style> 
         *{
             margin: 0; padding: 0;
             list-style: none;
